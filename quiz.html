@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr" prefix="og:http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>A good day to Quiz hard</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="description"
+    content="We educate future talents in Design for Print and Non-Print, Web- and App Development">
+  <meta name="description" content="HTML5, CSS3, JavaScript, Sass, Handlebars, Navigo, Webpack, Babel">
+  <meta name="author" content="Artevelde University College Ghent">
+  <meta name="copyright" content="Copyright 2010 - Artevelde University College Ghent. All Rights Reserved.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Web Programming  2 | Artevelde University College Ghent">
+  <meta property="og:description" content="We educate future talents Web- and App Development">
+  <meta property="og:url" content="http://www.pgm.gent/">
+  <meta property="og:site_name" content="Web Programming 2">
+  <script src="https://kit.fontawesome.com/3648c47f4c.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="questionNumber" class="hud-prefix">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+        </div>
+        <h2 id="question">What is the answer to this questions?</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./scripts/app.js"></script>
+</body>
+
+</html>

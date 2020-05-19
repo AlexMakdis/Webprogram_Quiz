@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>A good day to Quiz hard</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+
+<body>
+  <div class="container_home">
+    <div id="home" class="flex-center flex-column">
+      <h1 class="titel_home">A good day to <span>Quiz</span> hard</h1>
+      <div class="links">
+        <a class="btn" href="./quiz.html">Play</a>
+        <a class="btn" href="./endScore.html">High Scores</a>
+      </div>
+    </div>
+    <div id="select">
+      <label class="label1" for="difficulty">Select Difficulty: </label>
+      <select name="difficulty" id="difficulty">
+        <option id="difficulties" value="any" selected>Any Difficulty</option>
+        <option id="difficulties" value="easy">Easy</option>
+        <option id="difficulties" value="medium">Medium</option>
+        <option id="difficulties" value="hard">Hard</option>
+      </select>
+      <label class="label2" for="categories">Select Category: </label>
+      <select name="categories" id="categories">
+        <option id="choice" value="any" selected>Any Category</option>
+      </select>
+    </div>
+  </div>
+  <script type="module" src="./scripts/home.js"></script>
+</body>
+
+</html>
